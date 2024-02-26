@@ -11,7 +11,7 @@ FROM
         BULK 'raw/taxi_zone.csv',
         DATA_SOURCE = 'nyc_taxi_data',
         FORMAT = 'CSV',
-        PARSER_VERSION = '2.0',
+PARSER_VERSION = '2.0',
         HEADER_ROW = TRUE,
         FIELDTERMINATOR = ',',
         ROWTERMINATOR = '\n'
@@ -35,7 +35,7 @@ FROM
         BULK 'taxi_zone.csv',
         DATA_SOURCE = 'nyc_practice',
         FORMAT = 'CSV',
-        PARSER_VERSION = '2.0',
+        PARSER_VERSION = '2.0',
         HEADER_ROW = TRUE,
         FIELDTERMINATOR = ',',
         ROWTERMINATOR = '\n'
